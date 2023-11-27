@@ -8,19 +8,23 @@ public class SelectionSort {
                     minIndex = j;
                 }
             }
+            
             int temp = arr[i];
             arr[i] = arr[minIndex];
             arr[minIndex] = temp;
+            
         }
     }
 
     public static void main(String[] args) {
+        
         int[] myArray = {64, 25, 12, 22, 11};
         selectionSort(myArray);
         System.out.print("Sorted array: ");
         for (int i = 0; i < myArray.length; i++) {
             System.out.print(myArray[i] + " ");
         }
+        
     }
 }
 
