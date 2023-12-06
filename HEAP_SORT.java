@@ -1,3 +1,4 @@
+import java.util.*;
 public class HeapSort {
     public static void main(String[] args) {
         int[] arr = {12, 11, 13, 5, 6, 7};
@@ -10,6 +11,7 @@ public class HeapSort {
 
         System.out.println("\nSorted array:");
         printArray(arr);
+        
     }
 
     public static void heapSort(int[] arr) {
