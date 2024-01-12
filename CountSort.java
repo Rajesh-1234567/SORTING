@@ -21,6 +21,7 @@ public class CountingSort {
         }
 
         // Calculate the cumulative count
+        
         for (int i = 1; i < count.length; i++) {
             count[i] += count[i - 1];
         }
